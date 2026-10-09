@@ -1,0 +1,1 @@
+# Optimierung-der-Einsatzplanung-mobiler-Fabriken-in-dezentralen-Produktionssystemen
