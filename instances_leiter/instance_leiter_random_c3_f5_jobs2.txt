@@ -1,0 +1,31 @@
+Number_Customers: 3
+Mobile Factories (MF): 5
+MF Capacity: 400
+Customer Orders per Customer: 2, 2, 2
+
+Jobs	customer   proc	size	DD		Penalty
+0		1		6		60		148		7
+1		1		5		163		148		7
+2		2		16		155		56		3
+3		2		23		224		56		3
+4		3		29		127		43		4
+5		3		21		298		43		4
+
+//Locations  (depot: ID=0)
+CustomerID	X	Y
+0	50	50
+1	66	73
+2	13	85
+3	1	18
+
+//Setup Times
+SetupBetweenBatches (Setup_B):      2
+SetupTimeMobileFactory (Setup_MF):  12
+TravelTimePerDistance:              1
+
+//Costs
+CostType	Value
+MobileFactoryRelocation:	200
+MobileFactorySetup:     	5
+DeliveryCost:           	2
+InitialMFCost:              2000
